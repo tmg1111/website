@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+body {
+    background-color: #ffcce6;
+}
+
+.header_container{
+    width:100%;
+    position:relative;
+}
+.header_container img{
+    width:100%;
+}
+.header_container h1{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-90%);
+    font-size:200px;
+    color:white;
+    font-family: "fantasy";
+}
+
+#X{
+    margin:10px;
+    padding:10px;
+    width:70px;
+    height:70px;
+    position:absolute;
+    top:15px;
+    right:300px;
+}
+#Instagram{
+    margin:10px;
+    padding:10px;
+    width:80px;
+    height:80px;
+    position:absolute;
+    top:10px;
+    right:170px;
+}
+#YouTube{
+    margin:10px;
+    padding:10px;
+    width:80px;
+    height:80px;
+    position:absolute;
+    top:10px;
+    right:40px;
+}
+
+
+@media (max-width: 600px){
+    h1{
+
+    }
+}
