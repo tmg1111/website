@@ -10,6 +10,12 @@ body {
 }
 .header_container img{
     width:100%;
+    pointer-events: none;
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-touch-callout:none;
+    -moz-user-select:none;
+    user-select:none;
 }
 .header_container h1{
     position:absolute;
