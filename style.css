@@ -75,7 +75,7 @@ body {
 }
 @keyframes item{
     0%{
-        transform:translateX(90px);
+        transform:translateX(10%);
     }
 }
 .text{
@@ -90,7 +90,7 @@ body {
 }
 @keyframes text{
     0%{
-        transform:translateX(90px);
+        transform:translateX(10%);
     }
 }
 
