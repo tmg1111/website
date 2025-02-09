@@ -57,8 +57,8 @@ body {
 .item{
     margin-top:10vh;
     position:relative;
-    margin-left:5%;
-    font-size: 4vw;
+    margin-left:7%;
+    font-size: 5vw;
     font-weight:bold;
     animation:item 4s;
     color:white;
