@@ -67,16 +67,21 @@ body {
     margin-left:7%;
     font-size: 5vw;
     font-weight:bold;
-    animation:item 4s;
+    animation:SlideIn 4s;
     color:white;
     font-family:monospace;
     text-shadow:
     0 0 90px rgba(240, 234, 213, 0.5),
     0 0 6px rgba(255, 255, 255, 0.4);
 }
-@keyframes item{
+@keyframes SlideIn{
     0%{
+        opacity:0;
         transform:translateX(10%);
+    }
+    100%{
+        opacity:1;
+        transform:translateX(0);
     }
 }
 .text{
@@ -85,15 +90,11 @@ body {
     margin-left:10%;
     margin-right:10%;
     font-size: 3vw;
-    animation:item 4s;
+    animation:SlideIn 4s;
     line-height: 270%;
     color:#66525c;
 }
-@keyframes text{
-    0%{
-        transform:translateX(10%);
-    }
-}
+
 
 h2{
     margin-top:25%;
