@@ -101,7 +101,11 @@ h2{
 }
 
 
-
-
-
-
+main img {
+    position:absolute;
+    opacity:0.5;
+    width:30%;
+    height:auto;
+    right:10px;
+    margin-top:32%
+}
