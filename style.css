@@ -10,14 +10,6 @@ body {
     position:relative;
 }
 
-#header_image img{
-    pointer-events: none;
-    -webkit-touch-callout:none;
-    -webkit-user-select:none;
-    -moz-touch-callout:none;
-    -moz-user-select:none;
-    user-select:none;
-}
 .header_container img{
     width:100%;
 }
