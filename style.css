@@ -59,6 +59,16 @@ body {
     right:10%;
 }
 
+#music{
+    margin:10px;
+    padding:10px;
+    width:9%;
+    height:15%;
+    position:absolute;
+    top:1%;
+    right:0%;
+}
+
 .main_container{
     height:20%;
     margin-top:15%;
@@ -99,19 +109,6 @@ body {
 }
 
 
-h2{
-    margin-top:25%;
-    margin-bottom:30%;
-    text-align: center;
-    font-size: 3vw;
-    color:#ff99ce;
-    font-family:monospace;
-    text-shadow:
-    0 0 150px white ,
-    0 0 10px white;
-}
-
-
 main img {
     position:absolute;
     opacity:0.5;
@@ -126,6 +123,7 @@ main img {
     width: 100%;
     aspect-ratio: 16 / 9;
 }
+
 iframe {
     text-align: center;
     display: block;
@@ -133,3 +131,29 @@ iframe {
     height: 100%;
     margin: 0 auto;
     }
+
+.last_container{
+    text-align: center;
+    margin:0 auto;
+    justify-content: center;
+}
+
+.last_container h2{
+    margin-top:25%;
+    margin-bottom:30%;
+    text-align: center;
+    font-size: 3vw;
+    color:#ff99ce;
+    font-family:monospace;
+    text-shadow:
+    0 0 150px white ,
+    0 0 10px white;
+}
+
+.last_container img{
+    width:50%;
+    height:auto;
+    position:absolute;
+    display:flex;
+    margin:auto;
+}
